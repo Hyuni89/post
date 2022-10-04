@@ -48,10 +48,10 @@ Caught ArithmeticException
 
 ```kotlin
 val handler = CoroutineExceptionHandler { _, exception ->
-	println("CoroutineExceptionHandler got $exception")
+    println("CoroutineExceptionHandler got $exception")
 }
 val job = GlobalScope.launch(handler) {
-	throw AssertionError()
+    throw AssertionError()
 }
 ```
 
