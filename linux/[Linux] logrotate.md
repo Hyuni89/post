@@ -57,6 +57,13 @@ logrotate /etc/logrotate.d/{file}       # logrotate 실행
 logrotate -f /etc/logrotate.d/{file}    # logrotate 강제 실행 (rotate가 될 필요 없는 파일도 모두 rotate 된다)
 ```
 
+## history
+
+logrotate가 최근 언제 실행되었는지 간단히 알 수 있는 방법으로 status 파일을 확인할 수 있다.  
+```bash
+cat /var/lib/logrotate/logrotate.status
+```
+
 ## example
 
 ```bash
