@@ -28,7 +28,7 @@ filter {
 }
 ```
 
-![](../resource/troubleshooting_logstash001.png)
+![](../resource/troubleshooting/backslash_json_parsing/logstash001.png)
 
 에러 발생. 역슬래시가 코드에 단 하나만 들어가서 그랬으리라. 단 하나로만 표현된 역슬래시를 특수성을 고려하여 2의 배수씩 "\\\\", "\\\\\\\\" 고쳐봤지만 역시나 동일한 에러가 발생했다. 그밖에 다양한 방법으로 시도했지만 제대로 동작하는 것이 없었다.
 
