@@ -133,5 +133,4 @@ output {
 ## 참조
 
 [logstash file input plugins](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html)  
-[inode-reuse-issue](https://www.elastic.co/guide/en/beats/filebeat/7.15/inode-reuse-issue.html)  
 [logstash-input-file](https://github.com/logstash-plugins/logstash-input-file)  
